@@ -30,7 +30,7 @@ const TextFadeIn: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="my-10 flex justify-center items-center  relative z-20">
       <h1 ref={textRef} className="text-4xl font-bold">
         Animated Text
       </h1>

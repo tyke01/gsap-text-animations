@@ -33,7 +33,7 @@ const SlideInOnScroll = () => {
   return (
     <div
       ref={mainRef}
-      className="flex justify-between w-full min-h-screen px-40"
+      className="flex justify-between w-full min-h-screen px-40  relative z-20"
     >
       <div className="w-1/2">
         <h1 className="text-4xl md:text-6xl mb-5  overflow-hidden">

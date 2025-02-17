@@ -29,7 +29,7 @@ const TextRevealOnLoad = () => {
   });
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center text-center">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center text-center relative z-20">
       <h1 className="hero-header text-6xl text-balance overflow-hidden">
         <TextSplitter
           text="Gsap Text Reveal On Screen Load"

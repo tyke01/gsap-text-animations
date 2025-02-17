@@ -31,3 +31,23 @@ body {
     transform: translateX(0);
   }
 }
+/* h1 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.1em;
+} */
+.svgbox {
+  &--1 {
+    left: 0;
+  }
+  &--2 {
+    right: 0;
+  }
+}
+[data-split] {
+  > span {
+    display: inline-block;
+  }
+}
